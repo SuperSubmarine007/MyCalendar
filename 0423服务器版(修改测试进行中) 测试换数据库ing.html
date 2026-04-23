@@ -799,7 +799,7 @@
                 try {
                     const d = JSON.parse(dataStr);
                     if(typeof d === 'object' && d !== null) {
-                        display.innerText = d.text || "双击设置日历名称";
+                        display.innerText = d.text || "日历加载中";
                         display.style.color = d.color || '#2d3748';
                         display.style.fontSize = d.fontSize || '18px';
                         tempTitleStyle = { color: d.color, fontSize: d.fontSize };
